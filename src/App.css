@@ -1,7 +1,6 @@
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +34,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+h1{
+  margin:0%
+}
+.header{
+  background-color: #273c75;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+.data{
+  display: flex;
+  justify-content: space-between;
+  width:50%;
+  padding: 5px;
+  margin-left: 100px;
+}
+.info-heading{
+  font-size:large;
+  font: bold;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width:50%;
+  padding: 5px;
+  margin-left: 100px;
+  
+}
+.button{
+  padding: 8px;
+  color:white;
+  background-color: #4a69bd;
+  border: #4a69bd;
+  border-radius: 4px;
+}
+.main{
+  display: block;
+}
+.line{
+  font-size: medium;
+  font: bold;
 }
